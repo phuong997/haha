@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+body
+{	
+	color: #090909;
+background-color: #D4D4D4;
+font-family:"Noto Sans", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size:16px;
+	}
+h1,h2
+{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: #D32C2F;
+}
+h3
+{
+  font-family: "Oswald", sans-serif;
+  font-size:32px;
+	  color: #163BE4
+}	  
+.col-1{width:8.33%}  
+.col-2{width:16.66%}
+.col-3{width:25%}
+.col-4{width:33.33%}
+.col-5{width:41.66%}
+.col-6{width:50%}
+.col-7{width:58.33%}
+.col-8{width:66.66%}
+.col-9{width:75%}
+.col-10{width:83.33%}
+.col-11{width:91.66%}
+.col-12{width:100%}
+.vien{border:solid blue 2px}
+
+.row{display: flex}
+.img-100{width: 100%; height:auto}
+.container
+{
+	width: 80%;
+	margin: auto /* khien cho box 80% nay vao giua*/
+}
+[class*="col-"]
+{
+	padding: 15px; 
+	/*broder: 1px solid red*/
+}
+
+
+
